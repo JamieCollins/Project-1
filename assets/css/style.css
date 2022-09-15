@@ -2,7 +2,7 @@
 
 *{
     margin: 0;
-    padding 0;
+    padding: 0;
     border: none;
 }
 
@@ -13,11 +13,25 @@ body {
 
 /* Header Logo */
 
-h1 {
+#logo {
     font-family: 'Lato', sans-serif;
     font-size: 400%;
     text-transform: uppercase;
     letter-spacing: 12px;
     color: #afd275;
     float: left;
+}
+
+/* navbar */
+
+#menu {
+    font-size: 140%;
+    letter-spacing: 6px;
+    color: #c2cad0;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
 }
