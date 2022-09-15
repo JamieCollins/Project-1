@@ -89,3 +89,24 @@ body {
     right: 150px;
     position: absolute;
 }
+
+/* footer social media links */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 300%;
+    margin: 2%;
+    padding: 5%;
+    color:#e7717d;
+}
