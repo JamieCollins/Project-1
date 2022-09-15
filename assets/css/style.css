@@ -11,6 +11,10 @@ body {
     color: #e7717d;
 }
 
+#about {
+    padding: 10% 20%;
+}
+
 /* Header Logo */
 
 #logo {
@@ -59,6 +63,15 @@ body {
     width: 100%;
     background: url('../images/hero.jpg') no-repeat center center;
     background-position: 30% 10%;
+    position: relative;
+    overflow: hidden;
+}
+/* 2nd image */
+
+#image-2 {
+    height: 1200px;
+    width: 100%;
+    background: url('../images/image-2.jpg') no-repeat center center;
     position: relative;
     overflow: hidden;
 }
