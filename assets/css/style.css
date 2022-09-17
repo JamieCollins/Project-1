@@ -39,7 +39,7 @@ body {
     margin-right: 30px;
 }
 
-#menu a {
+#menu a, #contact-link {
     text-decoration: none;
     color: #c2cad0;
 }
@@ -109,4 +109,13 @@ footer {
     margin: 2%;
     padding: 5%;
     color:#e7717d;
+}
+
+/* Contact enquiries */
+
+#enquiries {
+    padding-top: 300px;
+    padding-bottom: 300px;
+    font-size: 70%;
+    text-align: center;
 }
