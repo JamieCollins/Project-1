@@ -99,6 +99,16 @@ img {
     text-align: center;
 }
 
+/* video */ 
+
+video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 360px;
+    width: 640px;
+}
+
 /* footer social media links */
 
 footer {
