@@ -10,6 +10,7 @@ The primary goal is then to obtain new customers via the website by utilising th
 /* (ADD PROJECT SCREENSHOTS THROUGHOUT & DIFFERENT DEVICE SETUP IMAGE)
 
 FEATURES
+
 -Interactive navbar
 -Landing image
 -Inspiring quotes
@@ -21,6 +22,7 @@ FEATURES
 -Logo which matches colouring of video
 
 FUTURE POSSIBLE FEATURES
+
 -Interactive slideshow/portfolio with titles instead of static gallery
 -Testimonial page
 -Sticky navbar
@@ -29,23 +31,28 @@ FUTURE POSSIBLE FEATURES
 -Fixed balloon and champagne PNGS on sides of website, static with scroll for celebratory feel
 
 TESTING /*(INCLUDE SCREENSHOTS OF VALIDATORS WITH NO ERRORS)*/
+
 -HTML testing:
 -CSS testing:
 
 UNFIXED/KNOWN ISSUES
+
 -Responsiveness of quote, text, navbar
 -Submission of form leads to error 404, submssion has no destination
 
 FIXED ISSUE
+
 -image-2 on landing page clipping over 1600 pixels - removed border radius
 
 DEPLOYMENT PROCESS
+
 -This project was deployed through GitHub via GitPod.
 -The project was freuqently commited and commented throughout.
 -None of the code was directly copied from elsewhere
 -Some issues were encountered and solutions to these problems were found via help from Google, W3Schools and YouTube. Most issues were due to element placing.
 
 MEDIA & CONTENT CREDITS
+
 -All images used in the website were stock photos taken royalty free from https://www.pexels.com/
 -The video used in the website were multiple stock videos taken royalty free from https://www.pexels.com/ clipped together using Adobe premier Pro 2020
 -The music used in the video was taken royalty free from user Arulo at https://www.mixkit.co/free-stock-music/tag/wedding/
