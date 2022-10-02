@@ -21,6 +21,7 @@ FEATURES
 
 FUTURE POSSIBLE FEATURES
 -Interactive slideshow/portfolio with titles instead of static gallery
+-Link to contact page at bottom of homepage to be made more noticeable/interactive
 -Testimonial page
 -Sticky navbar
 -Availability/booking calender

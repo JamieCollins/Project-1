@@ -9,10 +9,7 @@
 body {
     font-family:  'Montserrat', sans-serif;
     color: #e7717d;
-}
-
-.about {
-    padding: 10% 20%;
+    font-size: 2vh;
 }
 
 img {
@@ -20,7 +17,13 @@ img {
     max-height: 100%;
 }
 
-/* Header Logo */
+/* landing page text */
+
+.about {
+    padding: 150px;
+}
+
+/* header logo */
 
 #logo {
     font-family: 'Lato', sans-serif;
@@ -71,7 +74,8 @@ img {
     position: relative;
     overflow: hidden;
 }
-/* 2nd image */
+
+/* landing page 2nd image */
 
 #image-2 {
     height: 900px;
@@ -81,9 +85,10 @@ img {
     clear: both;
     border-radius: 50%;
     display: flex;
+    scale: 0.7;
 }
 
-/* Hero image quote*/
+/* hero image quote*/
 
 #quote {
     font-size: 150%;
@@ -130,7 +135,7 @@ footer {
     color:#e7717d;
 }
 
-/* Gallery */
+/* gallery */
 
 #photos {
     clear: both;
@@ -143,16 +148,15 @@ footer {
     width: 100%;
 }
 
-/* Contact enquiries */
+/* contact enquiries */
 
 #text-content {
-    padding-top: 300px;
-    padding-bottom: 300px;
-    font-size: 70%;
+    padding: 300px;
+    font-size: 2vh;
     text-align: center;
 }
 
-/* Contact Form */
+/* contact Form */
 
 .form {
     padding: 0 25%;
@@ -178,28 +182,43 @@ input[type=text], select, textarea, input[type=tel] {
     cursor: pointer;
   }
 
-/* Media queries */
+/* media queries */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1300px) {
     #photos {
         column-count: 1;
+    }
+    #quote {
+        display: none;
     }
     #image-2 {
         height: auto;
     }
-    #quote {
-        display: none;
+    #logo {
+        font-size: 3vh;
+    }
+    #menu {
+        font-size: 2vh;
+    }
+    #text-content {
+        font-size: 1vh;
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
     #photos {
         column-count: 1;
+    }
+    #image-2 {
+        height: auto;
     }
     #quote {
         display: none;
     }
-    #image-2 {
-        height: auto;
+    #logo {
+        font-size: 2vh;
+    }
+    #menu {
+        font-size: 1vh;
     }
 }
