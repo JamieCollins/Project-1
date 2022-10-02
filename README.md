@@ -35,6 +35,7 @@ TESTING /*(INCLUDE SCREENSHOTS OF VALIDATORS WITH NO ERRORS)*/
 UNFIXED/KNOWN ISSUES
 -Responsiveness
 -image-2 on landing page clipping over 1600 pixels
+-Submission of form leads to error 404, submssion has no destination
 
 DEPLOYMENT PROCESS
 -This project was deployed through GitHub via GitPod.
