@@ -32,6 +32,7 @@ img {
     letter-spacing: 12px;
     color: #afd275;
     float: left;
+    margin: 2vh 0vh;
 }
 
 /* navbar */
@@ -79,13 +80,14 @@ img {
 
 #image-2 {
     height: 900px;
-    width: 100%;
+    width: 80%;
     position: relative;
     overflow: hidden;
     clear: both;
     border-radius: 50%;
     display: flex;
     scale: 0.7;
+    margin-left: 10%;
 }
 
 /* hero image quote*/
@@ -110,8 +112,8 @@ video {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 360px;
-    width: 640px;
+    height: 720px;
+    width: 1280px;
 }
 
 /* footer social media links */
