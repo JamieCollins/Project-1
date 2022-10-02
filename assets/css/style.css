@@ -166,6 +166,7 @@ footer {
 
 .form {
     padding: 0 25%;
+    font-size: 3vh;
   }
 
 input[type=text], select, textarea, input[type=tel] {

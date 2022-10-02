@@ -17,11 +17,11 @@ FEATURES
 -Video with website name
 -Social media icons as links
 -Contact form
+-Contact page link
 -Logo which matches colouring of video
 
 FUTURE POSSIBLE FEATURES
 -Interactive slideshow/portfolio with titles instead of static gallery
--Link to contact page at bottom of homepage to be made more noticeable/interactive
 -Testimonial page
 -Sticky navbar
 -Availability/booking calender
@@ -33,9 +33,11 @@ TESTING /*(INCLUDE SCREENSHOTS OF VALIDATORS WITH NO ERRORS)*/
 -CSS testing:
 
 UNFIXED/KNOWN ISSUES
--Responsiveness
--image-2 on landing page clipping over 1600 pixels
+-Responsiveness of quote, text, navbar
 -Submission of form leads to error 404, submssion has no destination
+
+FIXED ISSUE
+-image-2 on landing page clipping over 1600 pixels - removed border radius
 
 DEPLOYMENT PROCESS
 -This project was deployed through GitHub via GitPod.
