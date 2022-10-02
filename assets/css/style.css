@@ -15,6 +15,11 @@ body {
     padding: 10% 20%;
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 /* Header Logo */
 
 #logo {
@@ -74,20 +79,24 @@ body {
     position: relative;
     overflow: hidden;
     clear: both;
+    border-radius: 50%;
+    display: flex;
 }
 
 /* Hero image quote*/
 
 #quote {
-    font-size: 200%;
-    width: 300px;
-    height: 200px;
+    font-size: 150%;
+    width: 400px;
+    height: 150px;
     background-color: black;
     padding-top: 40px;
-    padding-left: 10px;
+    padding-left: 20px;
     bottom: 300px;
-    right: 150px;
+    right: 10px;
     position: absolute;
+    border-radius: 50%;
+    text-align: center;
 }
 
 /* footer social media links */
@@ -131,4 +140,30 @@ footer {
     padding-bottom: 300px;
     font-size: 70%;
     text-align: center;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 1;
+    }
+    #image-2 {
+        height: auto;
+    }
+    #quote {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #photos {
+        column-count: 1;
+    }
+    #quote {
+        display: none;
+    }
+    #image-2 {
+        height: auto;
+    }
 }
