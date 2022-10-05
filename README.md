@@ -61,7 +61,7 @@ The primary goal is then to obtain new customers via the website by utilising th
 
 * Fixed balloon and champagne PNGS on sides of website, static with scroll for celebratory feel
 
-## TESTING /*(INCLUDE SCREENSHOTS OF VALIDATORS WITH NO ERRORS)*/
+## TESTING
 
 HTML testing: All three .html pages passed validation with no errors.
 
