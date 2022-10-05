@@ -71,13 +71,21 @@ CSS testing: The .css file passed validation with no errors.
 
 ![CSS validation](assets/images/css-validator.png?raw=true "CSS")
 
-## UNFIXED/KNOWN ISSUES
+Google DevTools Lighthouse Testing:
 
-* Responsiveness of text must be optimised.
+![Lighthouse](assets/images/Lighthouse-scores.png?raw=true "Lighthouse")
+
+### Performance improvement: 
+The lower score of 89 on performance on Google Lighthouse testing was caused mostly due to large content such as images and the video.
+Ideas to improve this score would be the following: 
+* Host video on alternative site such as youtube.
+* Convert all images to formats such as .webp to reduce file sizes.
+
+### UNFIXED/KNOWN ISSUES
 
 * Submission of form leads to error 404, submssion has no destination
 
-## FIXED ISSUE
+### FIXED ISSUE
 
 "image-2" on landing page clipping over 1600 pixels - removed border radius to resolve issue.
 
@@ -91,7 +99,7 @@ None of the code was directly copied from elsewhere.
 
 Some issues were encountered and solutions to these problems were found via help from Google, W3Schools and YouTube. Most issues were due to element placing.
 
-## MEDIA & CONTENT CREDITS
+##  MEDIA & CONTENT CREDITS
 
 All images used in the website were stock photos taken royalty free from https://www.pexels.com/.
 The video used in the website were multiple stock videos taken royalty free from https://www.pexels.com/ clipped together using Adobe premier Pro 2020.
