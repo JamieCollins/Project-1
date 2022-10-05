@@ -24,7 +24,7 @@ img {
 }
 
 #contact-link {
-    font-size: 3vh;
+    font-size: 2vh;
     background-color: #e7717d;
     border-style: double;
     border-radius: 20%;
@@ -35,6 +35,7 @@ img {
 #logo {
     font-family: 'Lato', sans-serif;
     font-size: 400%;
+    max-width: 100%;
     text-transform: uppercase;
     letter-spacing: 12px;
     color: #afd275;
@@ -81,6 +82,8 @@ img {
     background-position: 30% 10%;
     position: relative;
     overflow: hidden;
+    display: flex;
+    background-size: cover;
 }
 
 /* landing page 2nd image */
@@ -97,7 +100,7 @@ img {
 /* hero image quote*/
 
 #quote {
-    font-size: 150%;
+    font-size: 125%;
     width: 400px;
     height: 150px;
     background-color: black;
@@ -116,7 +119,7 @@ video {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 720px;
+    height: auto;
     max-width: 100%;
 }
 
@@ -202,10 +205,12 @@ input[type=text], select, textarea, input[type=tel] {
         height: auto;
     }
     #logo {
-        font-size: 3vh;
+        padding-left: 10%;
+        padding-right: 100%;
     }
     #menu {
         font-size: 2vh;
+        padding-top: 10%;
     }
     #text-content {
         font-size: 1vh;
@@ -223,9 +228,26 @@ input[type=text], select, textarea, input[type=tel] {
         display: none;
     }
     #logo {
-        font-size: 2vh;
+        font-size: 4vh;
+        width: 100%;
     }
     #menu {
-        font-size: 1vh;
+        font-size: 2vh;
+    }
+    .about {
+        padding: 75px;
+    }
+    #text-content {
+        padding: 75px;
+        margin-top: 150px;
+    }
+    footer {
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width: 500px) {
+    #logo {
+        font-size: 2vh;
+        width: 100%;
     }
 }
