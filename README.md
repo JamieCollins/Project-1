@@ -9,25 +9,45 @@ The primary goal is then to obtain new customers via the website by utilising th
 
 /* (ADD PROJECT SCREENSHOTS THROUGHOUT & DIFFERENT DEVICE SETUP IMAGE)
 
+![Website on multiple devices](assets/images/multiple-device-screenshot.png?raw=true "Responsive")
+
 **FEATURES**
 
 -Interactive navbar
 
+![Navbar](assets/images/navbar.png?raw=true "Navbar")
+
 -Landing image
+
+![Hero image](assets/images/landing-image.png?raw=true "Hero")
 
 -Inspiring quotes
 
+![Inspiring quote](assets/images/quote.png?raw=true "Quote")
+
 -Stylistic Photos/Gallery
+
+![Gallery](assets/images/screenshot-gallery.png?raw=true "Gallery")
 
 -Video with website name
 
+![Video](assets/images/video-screenshot.png?raw=true "Video")
+
 -Social media icons as links
+
+![Social Media Icon links](assets/images/social-media.png?raw=true "Socials")
 
 -Contact form
 
+![Contact Form](assets/images/form.png?raw=true "Form")
+
 -Contact page link
 
+![Link](assets/images/link.png?raw=true "Link")
+
 -Logo which matches colouring of video
+
+![Logo](assets/images/logo.png?raw=true "Logo")
 
 **FUTURE POSSIBLE FEATURES**
 
