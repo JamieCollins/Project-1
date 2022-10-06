@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -63,6 +64,7 @@ img {
 
 #menu a:hover {
     border-bottom: 1px solid #c2b9b0;
+    color: #e7717d;
 }
 
 .active {
@@ -78,39 +80,20 @@ img {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('../images/hero.webp') no-repeat center center;
-    background-position: 30% 10%;
+    background: url('../images/hero.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
     position: relative;
     overflow: hidden;
-    display: flex;
-    background-size: cover;
 }
 
 /* landing page 2nd image */
 
 #image-2 {
-    height: 100%;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-    clear: both;
-    display: flex;
-}
-
-/* hero image quote*/
-
-#quote {
-    font-size: 125%;
-    width: 400px;
-    height: 150px;
-    background-color: black;
-    padding-top: 40px;
-    padding-left: 20px;
-    bottom: 300px;
-    right: 10px;
-    position: absolute;
-    border-radius: 50%;
-    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
 }
 
 /* video */ 
@@ -120,7 +103,7 @@ video {
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    max-width: 100%;
+    max-width: 85%;
 }
 
 /* footer social media links */
@@ -157,7 +140,7 @@ footer {
     width: 100%;
 }
 
-/* contact enquiries */
+/* contact enquiries text */
 
 #text-content {
     padding: 300px;
@@ -198,12 +181,6 @@ input[type=text], select, textarea, input[type=tel] {
     #photos {
         column-count: 1;
     }
-    #quote {
-        display: none;
-    }
-    #image-2 {
-        height: auto;
-    }
     #logo {
         padding-left: 10%;
         padding-right: 100%;
@@ -220,12 +197,6 @@ input[type=text], select, textarea, input[type=tel] {
 @media screen and (max-width: 900px) {
     #photos {
         column-count: 1;
-    }
-    #image-2 {
-        height: auto;
-    }
-    #quote {
-        display: none;
     }
     #logo {
         font-size: 4vh;
@@ -245,9 +216,15 @@ input[type=text], select, textarea, input[type=tel] {
         padding-top: 50px;
     }
 }
+
 @media screen and (max-width: 500px) {
     #logo {
         font-size: 2vh;
         width: 100%;
     }
+        #menu li {
+            float: none;
+            display: block;
+            padding-left: 50px;
+        }
 }
