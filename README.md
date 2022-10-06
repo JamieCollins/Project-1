@@ -19,10 +19,6 @@ The primary goal is then to obtain new customers via the website by utilising th
 
 ![Hero image](assets/images/landing-image.png?raw=true "Hero")
 
-* Inspiring quote.
-
-![Inspiring quote](assets/images/quote.png?raw=true "Quote")
-
 * Stylistic, high definition photographs/gallery.
 
 ![Gallery](assets/images/screenshot-gallery.png?raw=true "Gallery")

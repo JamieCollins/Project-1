@@ -78,10 +78,10 @@ img {
 /* hero image */
 
 #hero-image {
-    height: 600px;
+    height: 60vh;
     width: 100%;
     background: url('../images/hero.webp');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     overflow: hidden;
@@ -93,7 +93,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 85%;
+    max-width: 85%;
 }
 
 /* video */ 
@@ -184,6 +184,7 @@ input[type=text], select, textarea, input[type=tel] {
     #logo {
         padding-left: 10%;
         padding-right: 100%;
+        font-size: 300%;
     }
     #menu {
         font-size: 2vh;
@@ -194,7 +195,7 @@ input[type=text], select, textarea, input[type=tel] {
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 922px) {
     #photos {
         column-count: 1;
     }
@@ -215,6 +216,10 @@ input[type=text], select, textarea, input[type=tel] {
     footer {
         padding-top: 50px;
     }
+    #hero-image {
+        background-size: contain;
+        height: 40vh;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -222,9 +227,9 @@ input[type=text], select, textarea, input[type=tel] {
         font-size: 2vh;
         width: 100%;
     }
-        #menu li {
-            float: none;
-            display: block;
-            padding-left: 50px;
-        }
+    #menu li {
+        float: none;
+        display: block;
+        padding-left: 50px;
+    }
 }
