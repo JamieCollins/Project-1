@@ -52,12 +52,14 @@ img {
 #menu {
     font-size: 2em;
     letter-spacing: 6px;
+    float: right;
 }
 
 #menu li {
-    float: right;
     list-style-type: none;
     margin-right: 30px;
+    text-align: right;
+    float: left;
 }
 
 #menu a, #contact-link {
@@ -115,7 +117,7 @@ video {
 /* footer social media links */
 
 footer {
-    height: 15vh;
+    height: 30vh;
     overflow: hidden;
     max-width: 100%;
 }
@@ -159,9 +161,13 @@ footer {
 
 /* contact Form */
 
+div.form {
+    padding-bottom: 10%;
+}
+
 .form {
     padding: 0 25%;
-    font-size: 1em;
+    font-size: 3em;
   }
 
 input[type=text], select, textarea, input[type=tel] {
@@ -217,14 +223,22 @@ input[type=text], select, textarea, input[type=tel] {
     }
     #hero-image {
         height: 40vh;
-        margin-bottom: 20%;
     }
     #text-content {
         padding: 75px;
-        margin-top: 150px;
+        margin: 150px 0;
     }
     footer {
         padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .form {
+        padding: 0;
+      }
+    #hero-image {
+        height: 30vh;
     }
 }
 
@@ -246,16 +260,33 @@ input[type=text], select, textarea, input[type=tel] {
 
 @media screen and (max-width: 400px) {
     #menu {
-        font-size: 0.5em;
+        float: none;
     }
     #menu li {
         float: none;
         width: 100%;
         text-align: center;
+        padding-bottom: 40px;
     }
+    #hero-image {
+        height: 20vh;
+    }
+    .home-text {
+        padding: 15%;
+    }
+    #logo {
+        padding-bottom: 20px;
+    }
+}
 
 @media screen and (min-width: 1440px) {
     .home-text {
         font-size: 2em;
     }
+    .form {
+        font-size: 3em;
+      }
+    input[type=text], select, textarea, input[type=tel] {
+        font-size: 0.5em;
+      }
 }
