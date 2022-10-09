@@ -10,7 +10,7 @@
 body {
     font-family:  'Montserrat', sans-serif;
     color: #e7717d;
-    font-size: 2vh;
+    font-size: 1em;
 }
 
 img {
@@ -21,34 +21,34 @@ img {
 /* landing page text */
 
 .home-text {
-    padding: 150px;
+    padding: 20%;
 }
 
 #contact-link {
     font-size: 2vh;
     background-color: #e7717d;
     border-style: double;
-    border-radius: 20%;
+    border-radius: 25%;
 }
 
 /* header logo */
 
 #logo {
     font-family: 'Lato', sans-serif;
-    font-size: 400%;
+    font-size: 4em;
     width: 100%;
     text-transform: uppercase;
     letter-spacing: 12px;
     color: #afd275;
     float: left;
-    margin: 2vh 0vh;
+    margin: 2vh 2vw;
     padding: 6px;
 }
 
 /* navbar */
 
 #menu {
-    font-size: 130%;
+    font-size: 2em;
     letter-spacing: 6px;
 }
 
@@ -95,7 +95,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 85%;
+    max-width: 60%;
 }
 
 /* video */ 
@@ -104,8 +104,9 @@ video {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 60px;
     height: auto;
-    max-width: 85%;
+    max-width: 60%;
 }
 
 /* footer social media links */
@@ -136,6 +137,7 @@ footer {
     line-height: 0;
     column-count: 2;
     column-gap: 0;
+    border: #e7717d;
 }
 
 #photos > img {
@@ -146,7 +148,7 @@ footer {
 
 #text-content {
     padding: 300px;
-    font-size: 1.5vh;
+    font-size: 1em;
     text-align: center;
 }
 
@@ -154,7 +156,7 @@ footer {
 
 .form {
     padding: 0 25%;
-    font-size: 3vh;
+    font-size: 1em;
   }
 
 input[type=text], select, textarea, input[type=tel] {
@@ -186,7 +188,7 @@ input[type=text], select, textarea, input[type=tel] {
     #logo {
         padding-left: 10%;
         padding-right: 100%;
-        font-size: 300%;
+        font-size: 3em;
     }
     #menu {
         font-size: 2vh;
@@ -202,14 +204,15 @@ input[type=text], select, textarea, input[type=tel] {
         column-count: 1;
     }
     #logo {
-        font-size: 4vh;
+        font-size: 2em;
         width: 100%;
     }
     #menu {
-        font-size: 2vh;
+        font-size: 1.5em;
     }
-    .about {
-        padding: 75px;
+    #hero-image {
+        height: 40vh;
+        margin-bottom: 20%;
     }
     #text-content {
         padding: 75px;
@@ -218,24 +221,23 @@ input[type=text], select, textarea, input[type=tel] {
     footer {
         padding-top: 50px;
     }
-    .home-text {
-        padding: 100px;
-    }
 }
 
 @media screen and (max-width: 500px) {
     #logo {
-        font-size: 3vh;
+        font-size: 1em;
         width: 100%;
     }
     #menu {
-        font-size: 1.5vh;
+        font-size: 1em;
     }
     .about {
         font-size: 1.8vw;
     }
-    .home-text {
-        padding: 50px;
-        padding-top: 100px;
+    video {
+        max-width: 100%;
+    }
+    #image-2 {
+        max-width: 100%;
     }
 }
