@@ -145,6 +145,7 @@ footer {
     column-count: 2;
     column-gap: 0;
     border: #e7717d;
+    padding-bottom: 15vh;
 }
 
 #photos > img {
