@@ -108,9 +108,9 @@ img {
 }
 
 #gallery-link {
-    font-size: 10em;
+    font-size: 120px;
     color: #04AA6D;
-    opacity: .5;
+    opacity: .8;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -245,6 +245,9 @@ input[type=text], select, textarea, input[type=tel] {
     }
     footer {
         padding-top: 50px;
+    }
+    #gallery-link {
+        font-size: 60px;
     }
 }
 
