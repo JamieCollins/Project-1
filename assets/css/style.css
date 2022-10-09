@@ -12,6 +12,7 @@ body {
     font-family:  'Montserrat', sans-serif;
     color: #e7717d;
     font-size: 1em;
+    margin-bottom: 10%;
 }
 
 img {
@@ -114,8 +115,9 @@ video {
 /* footer social media links */
 
 footer {
-    height: 150px;
+    height: 15vh;
     overflow: hidden;
+    max-width: 100%;
 }
 
 .social-networks {
@@ -234,13 +236,26 @@ input[type=text], select, textarea, input[type=tel] {
     #menu {
         font-size: 1em;
     }
-    .about {
-        font-size: 1.8vw;
-    }
     video {
         max-width: 100%;
     }
     #image-2 {
         max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #menu {
+        font-size: 0.5em;
+    }
+    #menu li {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+@media screen and (min-width: 1440px) {
+    .home-text {
+        font-size: 2em;
     }
 }
