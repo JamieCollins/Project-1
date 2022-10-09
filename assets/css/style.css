@@ -97,10 +97,24 @@ img {
 /* landing page 2nd image */
 
 #image-2 {
+    border-radius: 30%;
+    border: #e7717d;
+    border-width: 6px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 60%;
+    position: relative;
+}
+
+#gallery-link {
+    font-size: 10em;
+    color: #04AA6D;
+    opacity: .5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* video */ 
