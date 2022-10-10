@@ -26,11 +26,20 @@ img {
     padding: 20%;
 }
 
+.home-text button {
+    overflow: hidden;
+    height: 6vh;
+    width: auto;
+}
+
 #contact-link {
-    font-size: 2vh;
+    font-size: 2em;
     background-color: #e7717d;
-    border-style: double;
-    border-radius: 25%;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
 }
 
 /* header logo */
@@ -45,7 +54,6 @@ img {
     float: left;
     margin: 2vh 2vw;
     padding: 6px;
-    text-shadow: 1px 1px grey;
 }
 
 /* navbar */
@@ -72,14 +80,12 @@ img {
 #menu a:hover {
     border-bottom: 1px solid #c2b9b0;
     background-color:aliceblue;
-    border-radius: 25%;
+    border-radius: 10%;
     color: #e7717d;
 }
 
 .active {
-    border-style: outset none;
-    border-radius: 20%;
-    border-color: #e7717d;
+    border-bottom: 1px solid #e7717d;
 }
 
 #menu, #logo {
@@ -114,13 +120,15 @@ img {
 }
 
 #gallery-link {
-    font-size: 120px;
+    font-size: 180px;
     color: #e7717d;
-    opacity: .8;
+    opacity: .75;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: black;
+    padding: 0 60px;
 }
 
 #image-2 a:hover {
@@ -263,7 +271,7 @@ input[type=text], select, textarea, input[type=tel] {
 
 @media screen and (max-width: 700px) {
     .form {
-        padding: 0;
+        padding: 0 10%;
       }
     #hero-image {
         height: 30vh;
