@@ -45,6 +45,7 @@ img {
     float: left;
     margin: 2vh 2vw;
     padding: 6px;
+    text-shadow: 1px 1px grey;
 }
 
 /* navbar */
@@ -53,6 +54,7 @@ img {
     font-size: 2em;
     letter-spacing: 6px;
     float: right;
+    padding-bottom: 30px;
 }
 
 #menu li {
@@ -69,11 +71,15 @@ img {
 
 #menu a:hover {
     border-bottom: 1px solid #c2b9b0;
+    background-color:aliceblue;
+    border-radius: 25%;
     color: #e7717d;
 }
 
 .active {
-    border-bottom: 1px solid #c2b9b0;
+    border-style: outset none;
+    border-radius: 20%;
+    border-color: #e7717d;
 }
 
 #menu, #logo {
@@ -97,7 +103,7 @@ img {
 /* landing page 2nd image */
 
 #image-2 {
-    border-radius: 30%;
+    border-radius: 25%;
     border: #e7717d;
     border-width: 6px;
     display: block;
@@ -109,12 +115,16 @@ img {
 
 #gallery-link {
     font-size: 120px;
-    color: #04AA6D;
+    color: #e7717d;
     opacity: .8;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#image-2 a:hover {
+    color: #afd275;
 }
 
 /* video */ 
