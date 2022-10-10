@@ -28,18 +28,18 @@ img {
 
 .home-text button {
     overflow: hidden;
-    height: 6vh;
     width: auto;
+    padding: 0;
+    font-size: 1em;
 }
 
 #contact-link {
-    font-size: 0.5em;
-    max-height: 0.5em;
-    background-color: #e7717d;
-    padding: 6px 12px;
+    max-height: 2em;
+    padding: 30px 60px;
     border: none;
     border-radius: 5%;
     cursor: pointer;
+    background-color: #e7717d;
 }
 
 /* header logo */
@@ -120,7 +120,7 @@ img {
 }
 
 #gallery-link {
-    font-size: 180px;
+    font-size: 120px;
     color: #e7717d;
     opacity: .75;
     position: absolute;
@@ -253,6 +253,7 @@ input[type=text], select, textarea, input[type=tel] {
     }
     #menu {
         font-size: 1.5em;
+        padding: 0;
     }
     #hero-image {
         height: 40vh;
@@ -266,6 +267,12 @@ input[type=text], select, textarea, input[type=tel] {
     }
     #gallery-link {
         font-size: 60px;
+    }
+    .home-text button {
+        font-size: 0.6em;
+    }
+    #contact-link {
+        padding: 15px 30px;
     }
 }
 
@@ -305,7 +312,7 @@ input[type=text], select, textarea, input[type=tel] {
         float: none;
         width: 100%;
         text-align: center;
-        padding-bottom: 40px;
+        padding-bottom: 0;
     }
     #hero-image {
         height: 20vh;
