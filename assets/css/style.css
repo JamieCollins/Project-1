@@ -33,9 +33,9 @@ img {
 }
 
 #contact-link {
-    font-size: 2em;
+    font-size: 0.5em;
+    max-height: 0.5em;
     background-color: #e7717d;
-    color: white;
     padding: 6px 12px;
     border: none;
     border-radius: 5%;
@@ -200,7 +200,7 @@ div.form {
 
 .form {
     padding: 0 25%;
-    font-size: 3em;
+    font-size: 2em;
   }
 
 input[type=text], select, textarea, input[type=tel] {
@@ -276,6 +276,9 @@ input[type=text], select, textarea, input[type=tel] {
     #hero-image {
         height: 30vh;
     }
+    body {
+        font-size: .8em;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -313,6 +316,12 @@ input[type=text], select, textarea, input[type=tel] {
     #logo {
         padding-bottom: 20px;
     }
+    .home-text {
+        font-size: .9em;
+    }
+    #text-content {
+        font-size: .6em;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -321,8 +330,11 @@ input[type=text], select, textarea, input[type=tel] {
     }
     .form {
         font-size: 3em;
-      }
+    }
     input[type=text], select, textarea, input[type=tel] {
         font-size: 0.5em;
-      }
+    }
+      #contact-link {
+        font-size: 1em;
+    }
 }
