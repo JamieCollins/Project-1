@@ -231,13 +231,10 @@ input[type=text], select, textarea, input[type=tel] {
         column-count: 1;
     }
     #logo {
-        padding-left: 10%;
-        padding-right: 100%;
         font-size: 3em;
     }
     #menu {
         font-size: 2vh;
-        padding-top: 10%;
     }
     #text-content {
         font-size: 1vh;
@@ -287,11 +284,17 @@ input[type=text], select, textarea, input[type=tel] {
     body {
         font-size: .8em;
     }
+    #menu {
+        float: none;
+    }
+    #menu li {
+        width: 25%;
+    }
 }
 
 @media screen and (max-width: 500px) {
     #logo {
-        font-size: 1em;
+        font-size: 1.5em;
         width: 100%;
     }
     #menu {
@@ -308,12 +311,12 @@ input[type=text], select, textarea, input[type=tel] {
 @media screen and (max-width: 400px) {
     #menu {
         float: none;
+        padding-bottom: 5%;
     }
     #menu li {
         float: none;
         width: 100%;
         text-align: center;
-        padding-bottom: 20px;
     }
     #hero-image {
         height: 20vh;
