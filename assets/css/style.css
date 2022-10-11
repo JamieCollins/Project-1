@@ -235,6 +235,7 @@ input[type=text], select, textarea, input[type=tel] {
     }
     #menu {
         font-size: 2vh;
+        padding-top: 0;
     }
     #text-content {
         font-size: 1vh;
