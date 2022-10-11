@@ -31,11 +31,11 @@ The primary goal is then to obtain new customers via the website by utilising th
 
 ![Social Media Icon links](assets/images/social-media.png?raw=true "Socials")
 
-* Contact form.
+* Contact form with suggestions.
 
 ![Contact Form](assets/images/form.png?raw=true "Form")
 
-* Contact page link.
+* Contact page link on home page.
 
 ![Link](assets/images/link.png?raw=true "Link")
 
@@ -72,10 +72,11 @@ Google DevTools Lighthouse Testing:
 ![Lighthouse](assets/images/Lighthouse-scores.png?raw=true "Lighthouse")
 
 ### Performance improvement: 
-The lower score of 89 on performance on Google Lighthouse testing was caused mostly due to large content such as images and the video.
+The lower score of 90 on performance on Google Lighthouse testing was caused mostly due to slow loading large content such as images and the video.
 Ideas to improve this score would be the following: 
 * Host video on alternative site such as youtube.
 * Convert all images to formats such as .webp to reduce file sizes.
+* Aspect ratio of hero image is off and original image can be cropped.
 
 ### UNFIXED/KNOWN ISSUES
 
@@ -83,7 +84,8 @@ Ideas to improve this score would be the following:
 
 ### FIXED ISSUE
 
-"image-2" on landing page clipping over 1600 pixels - removed border radius to resolve issue.
+* "image-2" on landing page clipping over 1600 pixels - removed border radius from 50% to resolve issue.
+* Navigation menu is slightly off centre on screens with width sizes between 400 and 700 pixels.
 
 ## DEPLOYMENT PROCESS
 
@@ -93,7 +95,7 @@ The project was freuqently commited and commented throughout.
 
 None of the code was directly copied from elsewhere.
 
-Some issues were encountered and solutions to these problems were found via help from Google, W3Schools and YouTube. Most issues were due to element placing.
+Some issues were encountered and solutions to these problems were found via help from Google, W3Schools and YouTube. Most issues were due to element placing across different screen sizes.
 
 ##  MEDIA & CONTENT CREDITS
 
