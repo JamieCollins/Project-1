@@ -121,22 +121,6 @@ img {
     position: relative;
 }
 
-#gallery-link {
-    font-size: 120px;
-    color: #e7717d;
-    opacity: .75;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: black;
-    padding: 0 60px;
-}
-
-#image-2 a:hover {
-    color: #afd275;
-}
-
 /* video */ 
 
 video {
@@ -265,9 +249,6 @@ input[type=text], select, textarea, input[type=tel] {
     footer {
         padding-top: 50px;
     }
-    #gallery-link {
-        font-size: 60px;
-    }
     .home-text button {
         font-size: 0.9em;
     }
@@ -344,7 +325,7 @@ input[type=text], select, textarea, input[type=tel] {
     input[type=text], select, textarea, input[type=tel] {
         font-size: 0.5em;
     }
-      #contact-link {
+    #contact-link {
         font-size: 1em;
     }
 }
