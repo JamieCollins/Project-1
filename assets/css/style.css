@@ -13,6 +13,7 @@ body {
     color: #e7717d;
     font-size: 1em;
     margin-bottom: 10%;
+    background-color: aliceblue;
 }
 
 img {
@@ -23,7 +24,8 @@ img {
 /* landing page text */
 
 .home-text {
-    padding: 20%;
+    padding: 5%;
+    margin: 5vh 0;
 }
 
 /* contact link */
@@ -32,7 +34,6 @@ img {
     font-size: 1em;
     cursor: pointer;
     background-color: #e7717d;
-    border: 2px solid #afd275;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -52,13 +53,18 @@ img {
     width: 100%;
     text-transform: uppercase;
     letter-spacing: 12px;
-    color: #afd275;
+    color: #e7717d;
     float: left;
     margin: 2vh 2vw;
     padding: 6px;
 }
 
 /* navbar */
+
+nav {
+    border-bottom: #afd275;
+    border: #afd275;
+}
 
 #menu {
     font-size: 2em;
@@ -135,9 +141,10 @@ video {
 /* footer social media links */
 
 footer {
-    height: 30vh;
+    height: 15vh;
     overflow: hidden;
     max-width: 100%;
+    background-color: antiquewhite;
 }
 
 .social-networks {
@@ -151,9 +158,12 @@ footer {
 .social-networks i {
     font-size: 300%;
     margin: 2%;
-    padding: 5%;
     color:#e7717d;
 }
+
+.social-networks i:hover {
+    color: #afd275;
+  }
 
 /* gallery */
 
@@ -173,7 +183,8 @@ footer {
 /* contact and gallery text text */
 
 #text-content {
-    padding: 30vh;
+    padding: 5%;
+    margin-bottom: 15vh;
     font-size: 1em;
     text-align: center;
 }
@@ -181,11 +192,11 @@ footer {
 /* contact Form */
 
 div.form {
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 
 .form {
-    padding: 0 25%;
+    padding: 0 20%;
     font-size: 2em;
   }
 
@@ -199,9 +210,10 @@ input[type=text], select, textarea, input[type=tel] {
     margin-bottom: 16px;
     resize: vertical;
   }
-  
-  input[type=submit] {
-    background-color: #04AA6D;
+
+  #thank-you-link {
+    font-size: .3em;
+    background-color: #e7717d;
     color: white;
     padding: 12px 20px;
     border: none;
