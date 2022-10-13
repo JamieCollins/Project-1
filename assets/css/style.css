@@ -25,8 +25,9 @@ img {
 }
 
 #home-text-container-1, #home-text-container-2, #vid-container {
-    height: 535px;
+    max-height: 535px;
     text-align: center;
+    overflow: hidden;
 }
 
 #home-text-container-1 .home-text {
@@ -46,7 +47,7 @@ img {
 
 #vid-container {
     box-sizing: initial;
-    padding-bottom: 6px;
+    padding: 75px 0;
 }
 
 /* contact link */
@@ -233,6 +234,7 @@ footer {
     padding-bottom: 5%;
     font-size: 2em;
     box-sizing: initial;
+    font-family: 'Montserrat', sans-serif;
   }
 
 input[type=text], select, textarea, input[type=tel], input[type=email] {
@@ -243,6 +245,7 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    font-family: 'Montserrat', sans-serif;
   }
 
   #thank-you-link {
@@ -264,8 +267,11 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
         font-size: 1.75em;
         padding-top: 0;
     }
-    #text-content {
-        font-size: 1vh;
+    .home-text {
+        font-size: 1em;
+    }
+    #hero-image {
+        height: 500px;
     }
 }
 
@@ -291,8 +297,8 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
         padding: 75px;
         margin: 150px 0;
     }
-    .home-text button {
-        font-size: 0.9em;
+    .home-text {
+        font-size: .75em;
     }
     #contact-link {
         padding: 15px 30px;
@@ -306,9 +312,6 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
     #hero-image {
         height: 30vh;
     }
-    body {
-        font-size: .8em;
-    }
     #menu {
         float: none;
     }
@@ -317,6 +320,10 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
     }
     #photos {
         column-count: 1;
+    }
+    .home-text {
+        font-size: .6em;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -327,11 +334,8 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
     #menu {
         font-size: 1em;
     }
-    video {
-        max-width: 100%;
-    }
-    #image-2 {
-        max-width: 100%;
+    .home-text {
+        font-size: .6em;
     }
 }
 
@@ -351,22 +355,16 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
     #logo {
         padding-bottom: 20px;
     }
-    .home-text {
-        font-size: .9em;
-    }
-    #text-content {
-        font-size: .6em;
+    .home-text, #text-content {
+        font-size: .4em;
     }
 }
 
 @media screen and (min-width: 1440px) {
-    .home-text {
-        font-size: 2em;
-    }
     .form {
         font-size: 3em;
     }
-    input[type=text], select, textarea, input[type=tel] {
+    input[type=text], select, textarea, input[type=tel], input[type=email] {
         font-size: 0.5em;
     }
     #contact-link {
@@ -374,5 +372,12 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
     }
     #foot .home-text {
         font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 1650px) {
+    #image-2, #image-3 {
+        width: 50%;
+        height: 600px;
     }
 }
