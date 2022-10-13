@@ -59,23 +59,33 @@ img {
 
 .text-color {
     color: #8c0327;
+    font-size: 36px;
+    animation: text-move 5s infinite;
+    animation-name: text-ani;
+    animation-duration: 8s;
+}
+
+@keyframes text-ani {
+  0%   {color: #8c0327; font-size: 27px;}
+  25%  {color: #afd275; font-size: 18px;}
+  50%  {color: #e0053f; font-size: 18px;}
+  100% {color: #fa255e; font-size: 27px;}
 }
 
 /* contact link */
 
 #contact-link {
     cursor: pointer;
-    background-color: #fba92c;
+    background-color: #fa255e;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     font-size: 10px;
-    float: right;
 }
 
 #contact-link:hover {
-    background-color: #afd275;
-    color: aliceblue;
+    background-color: #8c0327;
+    color: #fff2f5;
   }
 
 /* header logo */
@@ -91,6 +101,10 @@ img {
     margin: 2vh 2vw;
     padding: 6px;
     
+}
+
+#logo:hover {
+    font-size: 4.1em;
 }
 
 /* navbar */
@@ -145,6 +159,18 @@ nav {
 #hero-image img {
     width: 100%;
     max-height: 100%;
+    animation-name: hero-ani;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes  hero-ani {
+    from {
+        transform: scale(1.5)
+    }
+    to {
+        transform: scale(1)
+    }
 }
 
 /* landing page 2nd images */
@@ -155,7 +181,7 @@ nav {
     width: 50%;
     height: auto;
     float: right;
-    padding: 3%;
+    padding: 6%;
     border-radius: 50%;
 }
 
@@ -165,7 +191,7 @@ nav {
     width: 50%;
     height: auto;
     float: left;
-    padding: 3%;
+    padding: 6%;
     border-radius: 50%;
 }
 
@@ -249,7 +275,7 @@ footer {
     font-size: 2em;
     box-sizing: initial;
     font-family: 'Montserrat', sans-serif;
-  }
+}
 
 input[type=text], select, textarea, input[type=tel], input[type=email] {
     width: 100%;
@@ -260,9 +286,9 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
     margin-bottom: 16px;
     resize: vertical;
     font-family: 'Montserrat', sans-serif;
-  }
+}
 
-  #thank-you-link {
+#thank-you-link {
     background-color: #a8032f;
     color: white;
     padding: 0 10px;
@@ -270,7 +296,11 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
     border-radius: 4px;
     cursor: pointer;
     font-size: 24px;
-  }
+}
+
+#thank-you-link:hover {
+    font-size: 32px;
+}
 
 
 /* media queries */
@@ -278,6 +308,9 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
 @media screen and (max-width: 1300px) {
     #logo {
         font-size: 3em;
+    }
+    #logo:hover {
+        font-size: 3.1em;
     }
     #menu {
         font-size: 1.75em;
@@ -303,7 +336,9 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
 @media screen and (max-width: 922px) {
     #logo {
         font-size: 2em;
-        width: 100%;
+    }
+    #logo:hover {
+        font-size: 2.1em;
     }
     #menu {
         font-size: 1.5em;
@@ -323,13 +358,17 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
         top: 33px;
     }
     #contact-link {
-        padding: 15px 30px;
+        font-size: 6px;
+        float: right;
     }
 }
 
 @media screen and (max-width: 800px) {
     #home-text-container-1 .home-text, #home-text-container-2 .home-text, #vid-container .home-text {
         top: 25px;
+    }
+    #contact-link {
+        font-size: 4px;
     }
 }
 
@@ -360,7 +399,9 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
 @media screen and (max-width: 500px) {
     #logo {
         font-size: 1.5em;
-        width: 100%;
+    }
+    #logo:hover {
+        font-size: 1.6em;
     }
     #menu {
         font-size: 1em;
