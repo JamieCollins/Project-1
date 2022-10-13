@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:ital,wght@1,300&display=swap');
 
 *{
-    margin: 0;
-    padding: 0;
     border: none;
     box-sizing: border-box;
     overflow-x: hidden;
@@ -11,8 +9,7 @@
 body {
     font-family:  'Montserrat', sans-serif;
     color: #e7717d;
-    font-size: 1em;
-    margin-bottom: 10%;
+    font-size: 0.8em;
     background-color: aliceblue;
 }
 
@@ -24,14 +21,27 @@ img {
 /* landing page text */
 
 .home-text {
-    padding: 5%;
-    margin: 5vh 0;
+    padding: 3%;
+}
+
+#home-text-1 .home-text {
+    width: 50%;
+    float: left;
+}
+
+#home-text-2 .home-text {
+    width: 50%;
+    float: right;
+}
+
+#homevid .home-text {
+    float: left;
+    width: 50%;
 }
 
 /* contact link */
 
 #contact-link {
-    font-size: 1em;
     cursor: pointer;
     background-color: #e7717d;
     padding: 10px 20px;
@@ -62,15 +72,14 @@ img {
 /* navbar */
 
 nav {
-    border-bottom: #afd275;
-    border: #afd275;
+    background-color: antiquewhite;
 }
 
 #menu {
     font-size: 2em;
     letter-spacing: 6px;
     float: right;
-    padding-bottom: 30px;
+    margin: 0;
 }
 
 #menu li {
@@ -114,17 +123,26 @@ nav {
     max-height: 100%;
 }
 
-/* landing page 2nd image */
+/* landing page 2nd images */
 
 #image-2 {
-    border-radius: 25%;
-    border: #e7717d;
-    border-width: 6px;
-    display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 60%;
-    position: relative;
+    width: 50%;
+    height: auto;
+    scale: .8;
+    float: right;
+    padding: 3%;
+}
+
+#image-3 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    scale: .8;
+    float: left;
+    padding: 3%;
 }
 
 /* video */ 
@@ -135,20 +153,23 @@ video {
     margin-right: auto;
     margin-bottom: 60px;
     height: auto;
-    max-width: 60%;
+    max-width: 50%;
+    float: right;
 }
 
 /* footer social media links */
 
 footer {
-    height: 15vh;
-    overflow: hidden;
+    height: 100px;
     max-width: 100%;
     background-color: antiquewhite;
+    overflow: hidden;
 }
 
 .social-networks {
     text-align: center;
+    height: 50px;
+    overflow: hidden;
 }
 
 .social-networks > li {
@@ -157,13 +178,20 @@ footer {
 
 .social-networks i {
     font-size: 300%;
-    margin: 2%;
+    margin: 0 2%;
     color:#e7717d;
 }
 
 .social-networks i:hover {
     color: #afd275;
-  }
+}
+
+#foot .home-text {
+    float: right;
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
 
 /* gallery */
 
@@ -258,9 +286,6 @@ input[type=text], select, textarea, input[type=tel] {
         padding: 75px;
         margin: 150px 0;
     }
-    footer {
-        padding-top: 50px;
-    }
     .home-text button {
         font-size: 0.9em;
     }
@@ -338,6 +363,9 @@ input[type=text], select, textarea, input[type=tel] {
         font-size: 0.5em;
     }
     #contact-link {
+        font-size: 1em;
+    }
+    #foot .home-text {
         font-size: 1em;
     }
 }
