@@ -33,28 +33,39 @@ img {
 #home-text-container-1 .home-text {
     width: 50%;
     float: left;
+    position: relative;
+    top: 100px;
 }
 
 #home-text-container-2 .home-text {
     width: 50%;
     float: right;
+    position: relative;
+    top: 100px;
 }
 
 #vid-container .home-text {
     float: left;
     width: 50%;
+    position: relative;
+    top: 100px;
 }
 
 #vid-container {
     box-sizing: initial;
-    padding: 75px 0;
+    max-height: 600px;
+    margin-bottom: 12px;
+}
+
+.text-color {
+    color: #8c0327;
 }
 
 /* contact link */
 
 #contact-link {
     cursor: pointer;
-    background-color: #fba92c
+    background-color: #fba92c;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -84,12 +95,8 @@ img {
 
 /* navbar */
 
-nav, footer {
-    background-color: #a80327;
-}
-
 nav {
-    border: 4px solid #fff2f5;
+    background-color: #000000;
 }
 
 #menu {
@@ -149,6 +156,7 @@ nav {
     height: auto;
     float: right;
     padding: 3%;
+    border-radius: 50%;
 }
 
 #image-3 {
@@ -158,6 +166,7 @@ nav {
     height: auto;
     float: left;
     padding: 3%;
+    border-radius: 50%;
 }
 
 /* video */ 
@@ -177,6 +186,7 @@ footer {
     height: 120px;
     max-width: 100%;
     overflow: hidden;
+    background-color: #8c0327;
 }
 
 .social-networks {
@@ -205,7 +215,6 @@ footer {
     padding: 0;
     margin: 0;
 }
-
 /* gallery */
 
 #photos {
@@ -229,6 +238,7 @@ footer {
     padding: 5%;
     margin-bottom: 15vh;
     text-align: center;
+    font-size: 16px;
 }
 
 /* contact Form */
@@ -253,13 +263,15 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
   }
 
   #thank-you-link {
-    background-color: #fa255e;
+    background-color: #a8032f;
     color: white;
     padding: 0 10px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-size: 24px;
   }
+
 
 /* media queries */
 
@@ -276,6 +288,9 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
     }
     #hero-image {
         height: 500px;
+    }
+    #home-text-container-1 .home-text, #home-text-container-2 .home-text, #vid-container .home-text {
+        top: 33px;
     }
 }
 
@@ -304,8 +319,17 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
     .home-text {
         font-size: .75em;
     }
+    #home-text-container-1 .home-text, #home-text-container-2 .home-text, #vid-container .home-text {
+        top: 33px;
+    }
     #contact-link {
         padding: 15px 30px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #home-text-container-1 .home-text, #home-text-container-2 .home-text, #vid-container .home-text {
+        top: 25px;
     }
 }
 
@@ -327,6 +351,9 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
     }
     .home-text {
         font-size: .6em;
+    }
+    #home-text-container-1 .home-text, #home-text-container-2 .home-text, #vid-container .home-text {
+        top: 0;
     }
 }
 
