@@ -11,37 +11,53 @@ The primary goal is then to obtain new customers via the website by utilising th
 
 ## FEATURES
 
+* Logo that becomes larger on hover.
+
+![Logo](assets/images/readme/logo.png?raw=true "Logo")
+
 * Interactive navigation bar.
 
-![Navbar](assets/images/navbar.png?raw=true "Navbar")
+![Navbar](assets/images/readme/navbar.png?raw=true "Navbar")
 
 * Landing image that evokes positive emotional response.
 
-![Hero image](assets/images/landing-image.png?raw=true "Hero")
+![Hero image](assets/images/readme/landing-image.png?raw=true "Hero")
 
-* Stylistic, high definition photographs/gallery.
+* Styled text and images on landing page.
 
-![Gallery](assets/images/screenshot-gallery.png?raw=true "Gallery")
-
-* Video with website name graphic.
-
-![Video](assets/images/video-screenshot.png?raw=true "Video")
-
-* Social media icons as links.
-
-![Social Media Icon links](assets/images/social-media.png?raw=true "Socials")
-
-* Contact form with suggestions.
-
-![Contact Form](assets/images/form.png?raw=true "Form")
+![Content](assets/images/readme/image-2-screenshot.png?raw=true "Content")
 
 * Contact page link on home page.
 
-![Link](assets/images/link.png?raw=true "Link")
+![Link](assets/images/readme/link.png?raw=true "Link")
 
-* Logo that matches colouring of video graphic.
+* Styled text with animations.
 
-![Logo](assets/images/logo.png?raw=true "Logo")
+![Text](assets/images/readme/text-animation.png?raw=true "Text")
+
+* Video with website name graphic.
+
+![Video](assets/images/readme/video-screenshot.png?raw=true "Video")
+
+* Footer with Social media icons as links, created by credit.
+
+![Footer](assets/images/readme/footer.png?raw=true "Footer")
+
+### GALLERY PAGE
+
+* Stylistic, high definition photographs/gallery.
+
+![Gallery](assets/images/readme/screenshot-gallery.png?raw=true "Gallery")
+
+### CONTACT PAGE
+
+* Contact form with suggestions.
+
+![Contact Form](assets/images/readme/form.png?raw=true "Form")
+
+* Thank you page upon submission of form.
+
+![Contact Form](assets/images/readme/thanks.png?raw=true "Form")
 
 ## FUTURE POSSIBLE FEATURES
 
@@ -61,22 +77,18 @@ The primary goal is then to obtain new customers via the website by utilising th
 
 HTML testing: All three .html pages passed validation with no errors.
 
-![HTML validation](assets/images/html-validator.png?raw=true "HTML")
+![HTML validation](assets/images/readme/html-validator.png?raw=true "HTML")
 
 CSS testing: The .css file passed validation with no errors.
 
-![CSS validation](assets/images/css-validator.png?raw=true "CSS")
+![CSS validation](assets/images/readme/css-validator.png?raw=true "CSS")
 
 Google DevTools Lighthouse Testing:
 
-![Lighthouse](assets/images/Lighthouse-scores.png?raw=true "Lighthouse")
+![Lighthouse](assets/images/readme/lighthouse-scores.png?raw=true "Lighthouse")
 
 ### Performance improvement: 
-The lower score of 90 on performance on Google Lighthouse testing was caused mostly due to slow loading large content such as images and the video.
-Ideas to improve this score would be the following: 
-* Host video on alternative site such as youtube.
-* Convert all images to formats such as .webp to reduce file sizes.
-* Aspect ratio of hero image is off and original image can be cropped.
+
 
 ### UNFIXED/KNOWN ISSUES
 
