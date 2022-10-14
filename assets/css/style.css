@@ -79,10 +79,10 @@ nav {
 }
 
 #menu i {
-    scale: .75;
+    scale: .5;
     vertical-align: middle;
     position: relative;
-    bottom: 5px;
+    bottom: 3px;
 }
 
 /* footer*/
