@@ -96,8 +96,7 @@ Google DevTools Lighthouse Testing:
 
 ### FIXED ISSUE
 
-* "image-2" on landing page clipping over 1600 pixels - removed border radius from 50% to resolve issue.
-* Navigation menu is slightly off centre on screens with width sizes between 400 and 700 pixels.
+* 
 
 ## DEPLOYMENT PROCESS
 
