@@ -7,7 +7,7 @@ The target audience of the website is primarily young people aged 20-35 as weddi
 The goal of the website is to demonstrate a sophisticated, classy feel through design and also proof of work through the gallery and the video.
 The primary goal is then to obtain new customers via the website by utilising the contact section.
 
-![Website on multiple devices](assets/images/readme/device-setup.png?raw=true "Responsive")
+![Website on multiple devices](assets/images/readme/device-responsive.webp?raw=true "Responsive")
 
 ## FEATURES
 
