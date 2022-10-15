@@ -166,22 +166,20 @@ footer {
 
 #home-text-container-1 .home-text {
     width: 50%;
+    height: 100%;
     float: left;
-    position: relative;
     top: 160px;
 }
 
 #home-text-container-2 .home-text {
     width: 50%;
     float: right;
-    position: relative;
     top: 160px;
 }
 
 #vid-container .home-text {
     float: left;
     width: 50%;
-    position: relative;
     top: 160px;
 }
 
@@ -195,22 +193,22 @@ footer {
 
 .home-text {
     padding: 3%;
-    font-size: 1vw;
+    font-size: 1.5vw;
+    height: 100%;
 }
 
 .text-color {
     color: #8c0327;
-    font-size: 36px;
     animation: text-move 5s infinite;
     animation-name: text-ani;
     animation-duration: 8s;
 }
 
 @keyframes text-ani {
-  0%   {color: #8c0327; font-size: 27px;}
-  25%  {color: #afd275; font-size: 18px;}
-  50%  {color: #e0053f; font-size: 18px;}
-  100% {color: #fa255e; font-size: 27px;}
+  0%   {color: #8c0327; font-size: 48px;}
+  25%  {color: #afd275; font-size: 36px;}
+  50%  {color: #e0053f; font-size: 36px;}
+  100% {color: #fa255e; font-size: 48px;}
 }
 
 /* contact link */
@@ -221,7 +219,7 @@ footer {
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 2vw;
 }
 
 #contact-link:hover {
@@ -331,11 +329,23 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
     font-size: 26px;
 }
 
-/* media queries */
+/* media queries max width */
 
 @media screen and (max-width: 1600px) {
     #home-text-container-1 .home-text, #home-text-container-2 .home-text, #vid-container .home-text {
         top: 120px;
+    }
+}
+
+@media screen and (max-width: 2000px) {
+    #hero-image {
+        height: 800px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    #hero-image {
+        height: 600px;
     }
 }
 
@@ -351,7 +361,7 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
         padding-top: 0;
     }
     .home-text {
-        font-size: 1.25vw;
+        font-size: 1.8vw;
     }
     #hero-image {
         height: 500px;
@@ -416,11 +426,14 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
         font-size: 1.5em;
         padding: 0;
     }
+    #hero-image {
+        height: 400px;
+    }
     #home-text-container-1 .home-text, #home-text-container-2 .home-text, #vid-container .home-text {
         top: 60px;
     }
     #contact-link {
-        font-size: 6px;
+        font-size: 12px;
         float: right;
     }
 }
@@ -429,20 +442,23 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
     #home-text-container-1 .home-text, #home-text-container-2 .home-text, #vid-container .home-text {
         top: 50px;
     }
-    #contact-link {
-        font-size: 4px;
-    }
+   
     #hero-image {
         height: 40vh;
     }
     .home-text {
-        font-size: 1.8vw;
+        font-size: 2vw;
         bottom: 120px;
         padding: 0 12px;
     }
     #contact-link {
         padding: 5px 10px;
-        font-size: 5px;
+    }
+    @keyframes text-ani {
+        0%   {color: #8c0327; font-size: 27px;}
+        25%  {color: #afd275; font-size: 18px;}
+        50%  {color: #e0053f; font-size: 18px;}
+        100% {color: #fa255e; font-size: 27px;}
     }
 }
 
@@ -457,7 +473,7 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
         top: 40px;
     }
     .home-text {
-        font-size: 1.6vw;
+        font-size: 2.2vw;
         padding: 0 6px;
     }
     .social-networks i {
@@ -485,18 +501,18 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
         font-size: 1em;
     }
     .home-text {
-        font-size: 2.1vw;
+        font-size: 2.8vw;
         top: 0;
+        padding-top: 16px;
     }
-    
     .text-color {
-        font-size: 27px;
+        font-size: 4vw;
     }
     @keyframes text-ani {
-      0%   {color: #8c0327; font-size: 18px;}
-      25%  {color: #afd275; font-size: 9px;}
-      50%  {color: #e0053f; font-size: 9px;}
-      100% {color: #fa255e; font-size: 18px;}
+      0%   {color: #8c0327; font-size: 36px;}
+      25%  {color: #afd275; font-size: 27px;}
+      50%  {color: #e0053f; font-size: 27px;}
+      100% {color: #fa255e; font-size: 36px;}
     }
     #home-text-container-1, #home-text-container-2, #vid-container {
         max-height: 500px;
@@ -512,19 +528,22 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
         margin-top: 0;
     }
     #image-2, #image-3 {
-        width: 80%;
+        width: 70%;
         height: auto;
         display: block;
         margin-left: auto;
         margin-right: auto;
         float: none;
+        padding: 0;
         position: relative;
-        bottom: 100px;
+        bottom: 50px;
     }
     video {
         float: none;
         position: relative;
-        
+        bottom: 30px;
+        height: auto;
+        max-width: 100%;
     }
     .text-color {
         font-size: 12px;
@@ -542,11 +561,6 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
     }
 }
 
-@media screen and (max-width: 450px) {
-    #image-2, #image-3 {
-    bottom: 50px;
-    }
-}
 
 @media screen and (max-width: 400px) {
     #logo {
@@ -583,12 +597,11 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
     }
 }
 
+/* media queries min width */
+
 @media screen and (min-width: 1440px) {
     input[type=text], select, textarea, input[type=tel], input[type=email] {
         font-size: 0.5em;
-    }
-    #contact-link {
-        font-size: 1em;
     }
 }
 
