@@ -103,19 +103,34 @@ All buttons or links on page are operating as expected. All external sites open 
 
 * Submission of form leads to error 404, submssion has no destination. Server sided programming language such as .php would be required to handle the form data.
 
-#### MOBILE
-
-* Logo becomes too large when clicked on mobile due to enlargement on hover.
-* Home page text container sizes uneven.
-* Text too small on home page.
-* Contact link too large.
-
-
 ### FIXED ISSUE
+* Response Time
+    Testing - Tested the pages using Google Lighthouse
+    Result - The load times were slower than expected due to large image file sizes.
+    Fix - changed file type from .jpeg or .png to .webp.
 
-* Large images producing longer load times, changed file type from .jpeg or .png to .webp to improve load.
-* Home images clipping on mobile, added media queries to adjust placement.
-* "Created by" credit dissapering under 500 pixel wide screens, removed social media icons left float to compensate.
+* Response Time
+    Testing - Tested the pages using devices with small screens.
+    Result - Home images clipping on mobile.
+    Fix - added media queries to adjust placement.
+
+* Footer Credit
+    Testing - Tested the pages using devices with small screens.
+    Result - "Created by" credit dissapering under 500 pixel wide screens.
+    Fix - removed social media icons left float to compensate.
+
+* Footer Credit
+    Testing - Tested the pages using devices with small screens.
+    Result - Logo becomes too large when clicked on mobile due to enlargement on hover.
+    Fix - removed hover enlargement via media query.
+
+* Footer Credit
+    Testing - Visual inspection and testing.
+    Result - Home page text container sizes uneven.
+    Fix - Adjusted videa size to be larger.
+
+* Text too small on home page. Fix - larger font-size.
+* Contact link too large. Fix - Smaller font-size.
 
 ## DEPLOYMENT PROCESS
 
@@ -125,7 +140,7 @@ The project was freuqently commited and commented throughout.
 
 None of the code was directly copied from elsewhere.
 
-Some issues were encountered and solutions to these problems were found via help from Google, W3Schools and YouTube. Most issues were due to element placing across different screen sizes.
+Some issues were encountered and solutions to these problems were found via help from Google, W3Schools and YouTube. Most issues were due to image or text placement across different screen sizes.
 
 ##  MEDIA CREDITS
 
